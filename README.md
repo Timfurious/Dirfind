@@ -45,6 +45,15 @@ Option	Description	Example
 
 -o, --output	Save the results to a file	-o results.txt
 
+--no-verify For not verifying the ssl
+
+--recursive Follow directorys and search in
+
 Example Usage:
 
-python dirfinder.py -u http://example.com -w wordlist.txt -p 8080 -t 20 -o found_dirs.txt
+python dirfinder.py -u http://example.com -w wordlist.txt -p 8080 -t 20 -o found_dirs.txt --recursive --no-verify
+
+🎥 screenshots 
+
+![photo](https://github.com/user-attachments/assets/e81e5d73-5258-4d46-a075-3ee7fee57292)
+
